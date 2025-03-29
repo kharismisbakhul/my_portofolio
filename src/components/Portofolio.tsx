@@ -13,7 +13,7 @@ const Portfolio: React.FC = () => {
       <nav className="fixed top-0 left-0 w-full bg-gray-900 shadow-md p-4 z-50">
         <div className="container mx-auto flex justify-between items-center">
           {/* Logo */}
-          <a href="#hero" className="text-white text-lg font-semibold">MyPortfolio</a>
+          <a href="#hero" className="text-white text-lg font-semibold">My Portfolio</a>
 
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-6">
@@ -58,7 +58,7 @@ const Portfolio: React.FC = () => {
       <section id="hero" className="h-screen flex flex-col md:flex-row justify-center items-center text-center md:text-left p-8 space-y-6 md:space-y-0 md:space-x-12">
         <div className="flex flex-col items-center md:items-start">
           <h1 className="text-5xl font-bold">Hi, It's me Kharis</h1>
-          <p className="text-xl mt-4">A Frontend Developer with 6 years Experience</p>
+          <p className="text-xl mt-4">A Web Developer with 6 years Experience</p>
         </div>
         {/* <img src="/kharis.png" alt="Haris" className="w-48 h-48 rounded-full shadow-lg border-4 border-white" /> */}
         <img src="/kharis_square.png" alt="Haris" className="w-96 h-100 rounded-full shadow-lg border-4 border-white" />
