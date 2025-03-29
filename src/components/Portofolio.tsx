@@ -1,26 +1,57 @@
-import React, { useEffect } from "react";
+import React, { useState } from "react";
 import "tailwindcss/tailwind.css";
 import { FaGithub, FaLinkedin, FaInstagram, FaTelegram, FaFacebook, FaEnvelope, FaWhatsapp, FaDownload } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
-import * as Icons from "react-icons/fa";
-
-console.log(Icons); // Check if FaEnvelope exists in this object
-
-console.log("FaEnvelope:", FaEnvelope);
-console.log("FaEnvelope Type:", typeof FaEnvelope);
-
+import { PiCertificateBold } from "react-icons/pi";
+import { FiMenu, FiX } from "react-icons/fi";
 
 const Portfolio: React.FC = () => {
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="bg-gradient-to-r from-gray-900 to-gray-700 text-white min-h-screen">
       {/* Navbar */}
-      <nav className="fixed top-0 left-0 w-full bg-gray-900 shadow-md p-4 flex justify-center space-x-6 z-50">
-        <a href="#hero" className="hover:text-gray-400">Home</a>
-        <a href="#about" className="hover:text-gray-400">About</a>
-        <a href="#projects" className="hover:text-gray-400">Projects</a>
-        <a href="#experience" className="hover:text-gray-400">Experience</a>
-        <a href="#cv" className="hover:text-gray-400">CV</a>
-        <a href="#contact" className="hover:text-gray-400">Contact</a>
+      <nav className="fixed top-0 left-0 w-full bg-gray-900 shadow-md p-4 z-50">
+        <div className="container mx-auto flex justify-between items-center">
+          {/* Logo */}
+          <a href="#hero" className="text-white text-lg font-semibold">MyPortfolio</a>
+
+          {/* Desktop Menu */}
+          <div className="hidden md:flex space-x-6">
+            {["Home", "About", "Projects", "Experience", "CV", "Contact"].map((item) => (
+              <a 
+                key={item}
+                href={`#${item.toLowerCase()}`} 
+                className="px-4 py-2 rounded-lg transition-all duration-300 hover:bg-gray-700 hover:text-white"
+              >
+                {item}
+              </a>
+            ))}
+          </div>
+
+          {/* Mobile Menu Button */}
+          <button 
+            className="md:hidden text-white focus:outline-none" 
+            onClick={() => setIsOpen(!isOpen)}
+          >
+            {isOpen ? <FiX size={28} /> : <FiMenu size={28} />}
+          </button>
+        </div>
+
+        {/* Mobile Menu */}
+        {isOpen && (
+          <div className="md:hidden flex flex-col items-center bg-gray-900 py-4 space-y-4">
+            {["Home", "About", "Projects", "Experience", "CV", "Contact"].map((item) => (
+              <a 
+                key={item}
+                href={`#${item.toLowerCase()}`} 
+                className="px-4 py-2 w-full text-center rounded-lg transition-all duration-300 hover:bg-gray-700 hover:text-white"
+                onClick={() => setIsOpen(false)}
+              >
+                {item}
+              </a>
+            ))}
+          </div>
+        )}
       </nav>
 
       {/* Hero Section */}
@@ -147,6 +178,16 @@ const Portfolio: React.FC = () => {
                 <br/>
                 <p>Bachelor's degree in <strong>Informatics Engineering</strong></p>
                 <p>GPA: <strong>3.70 / 4.0</strong></p>
+                <br/>
+                <div className="inline"></div>
+                <p>Bachelor's degree certificates from campus can be seen here</p>
+                <a 
+                  href="/Bachrelors_Degree_Certificate.pdf" // Update this with the actual path to your CV file
+                  download="Bachrelors_Degree_Certificate.pdf"
+                  className="mt-4 inline-flex items-center bg-blue-900 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-blue-700 transition duration-300"
+                >
+                  <PiCertificateBold />
+                </a>
               </div>
             </div>
 
@@ -177,7 +218,7 @@ const Portfolio: React.FC = () => {
           <div>
             <h2 className="text-3xl font-semibold mb-4">Get in Touch</h2>
             <p className="text-gray-400">
-              Feel free to reach out through any of the platforms below.  
+              Feel free to reach out through any of my social platforms.  
               Whether it's a collaboration, project inquiry, or just to say hello,  
               I'm always happy to connect!
             </p>
