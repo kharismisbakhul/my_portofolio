@@ -1,4 +1,5 @@
-import { PiCertificateBold } from "react-icons/pi";
+import { FaCertificate } from "react-icons/fa";
+
 const Experience: React.FC = () => {
   return (
     <>
@@ -15,23 +16,53 @@ const Experience: React.FC = () => {
             </h3>
             <br />
 
-            {/* PT. INFOMEDIA NUSANTARA */}
+            {/* Dibilabs.id */}
             <div className="mb-8 text-center">
               <h3 className="text-xl font-semibold">
-                PT. INFOMEDIA NUSANTARA – Jakarta, Indonesia
+                Dibilabs.id – Jakarta, Indonesia (Remote)
               </h3>
               <p className="text-gray-400">
-                Web Developer (June 2022 – August 2024)
+                Full Stack Developer (March 2025 – June 2025)
+              </p>
+            </div>
+            
+            {/* Belanja Mobil Aunction */}
+            <div className="mb-8 text-center">
+              <h3 className="text-xl font-semibold">
+                Belanja Mobil Aunction – Jakarta, Indonesia (Remote)
+              </h3>
+              <p className="text-gray-400">
+                Full Stack Developer (September 2024 – December 2024)
               </p>
             </div>
 
-            {/* KUD MINATANI COOPERATIVE */}
+            {/* PT. INFOMEDIA NUSANTARA */}
             <div className="mb-8 text-center">
               <h3 className="text-xl font-semibold">
-                KUD MINATANI COOPERATIVE – Lamongan, Indonesia
+                PT. INFOMEDIA NUSANTARA – Jakarta, Indonesia (Remote)
               </h3>
               <p className="text-gray-400">
-                Web Developer (September 2020 – May 2022)
+                Full Stack Developer (June 2022 – August 2024)
+              </p>
+            </div>
+
+            {/* Kharis Dev */}
+            <div className="mb-8 text-center">
+              <h3 className="text-xl font-semibold">
+                Kharis Dev – Lamongan, Indonesia (Remote)
+              </h3>
+              <p className="text-gray-400">
+                Full Stack Developer (November 2022 – April 2023)
+              </p>
+            </div>
+
+            {/* KUD MINATANI */}
+            <div className="mb-8 text-center">
+              <h3 className="text-xl font-semibold">
+                KUD MINATANI – Lamongan, Indonesia (On-site)
+              </h3>
+              <p className="text-gray-400">
+                Full Stack Developer (September 2020 – May 2022)
               </p>
             </div>
 
@@ -39,21 +70,21 @@ const Experience: React.FC = () => {
             <div className="mb-8 text-center">
               <h3 className="text-xl font-semibold">
                 PSIK, Faculty of Economics and Business, Brawijaya University –
-                Malang, Indonesia
+                Malang, Indonesia (Hybrid)
               </h3>
               <p className="text-gray-400">
-                Web Developer (June 2019 – April 2021)
+                Full Stack Developer (June 2019 – April 2021)
               </p>
             </div>
 
             {/* FACULTY OF COMPUTER SCIENCE, BRAWIJAYA UNIVERSITY */}
             <div className="mb-8 text-center">
               <h3 className="text-xl font-semibold">
-                Faculty of Computer Science, Brawijaya University – Malang,
-                Indonesia
+                Faculty of Computer Science (FILKOM), Brawijaya University – Malang,
+                Indonesia (On-site)
               </h3>
               <p className="text-gray-400">
-                Teaching Assistant (February 2019 – May 2019)
+                Practical Teaching Assistant (February 2018 – May 2019)
               </p>
             </div>
           </div>
@@ -64,7 +95,7 @@ const Experience: React.FC = () => {
             </h3>
             <br />
 
-            <div className="flex flex-col items-center text-center">
+            <div className="flex flex-col items-center text-center my-auto">
               <img
                 src="/brawijaya_university.png"
                 alt="Brawijaya University Logo"
@@ -72,25 +103,24 @@ const Experience: React.FC = () => {
               />
               <div>
                 <h3 className="text-xl font-bold">Brawijaya University</h3>
-                <p className="text-gray-300">(2016 - 2020)</p>
                 <br />
                 <p>
-                  Bachelor's degree in <strong>Informatics Engineering</strong>
+                  📍 Bachelor’s Degree <strong>Informatics Engineering</strong> (2016 – 2020)
                 </p>
                 <p>
-                  GPA: <strong>3.70 / 4.0</strong>
+                  🎓 GPA: <strong>3.70 / 4.00</strong>
                 </p>
                 <br />
                 <div className="inline"></div>
                 <p>
-                  Bachelor's degree certificates from campus can be seen here
+                  You can view my official degree certificate here:
                 </p>
                 <a
                   href="/Bachrelors_Degree_Certificate.pdf" // Update this with the actual path to your Certificate file
                   download="Bachrelors_Degree_Certificate.pdf"
                   className="mt-4 inline-flex items-center bg-blue-900 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-blue-700 transition duration-300"
                 >
-                  <PiCertificateBold />
+                  <FaCertificate /> <span className="ml-4">View Certificate</span>
                 </a>
               </div>
             </div>

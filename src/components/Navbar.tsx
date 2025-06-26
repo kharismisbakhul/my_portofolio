@@ -9,12 +9,12 @@ const Navbar: React.FC = () => {
         <div className="container mx-auto flex justify-between items-center">
           {/* Logo */}
           <a href="#home" className="text-white text-lg font-semibold">
-            My Portfolio
+            Misbakhul Kharis
           </a>
 
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-6">
-            {["Home", "About", "Projects", "Experience", "CV", "Contact"].map(
+            {["Home", "About", "Projects", "Experience", "Resume", "Contact"].map(
               (item) => (
                 <a
                   key={item}
@@ -50,7 +50,7 @@ const Navbar: React.FC = () => {
             <FiX size={28} />
           </button>
 
-          {["Home", "About", "Projects", "Experience", "CV", "Contact"].map(
+          {["Home", "About", "Projects", "Experience", "Resume", "Contact"].map(
             (item) => (
               <a
                 key={item}

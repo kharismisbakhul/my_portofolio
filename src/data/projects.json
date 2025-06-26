@@ -1,0 +1,152 @@
+{
+  "dataLeft": [
+    {
+      "title": "Dibilabs",
+      "description": "a modern, SEO-friendly company website built with Next.js and Tailwind CSS, featuring CMS-powered blog functionality, and engaging, accessible UI/UX.",
+      "stacks": "Next.js · Tailwind CSS · React.js · Strapi · PostgreSQL · Node.js · TypeScript · GitHub",
+      "stacksIcons": [
+        "Next.js",
+        "Tailwind CSS",
+        "React.js",
+        "Strapi",
+        "PostgreSQL",
+        "Node.js",
+        "TypeScript",
+        "GitHub"
+      ],
+      "image1": "",
+      "screenshots": []
+    },
+    {
+      "title": "Belanja Mobil Aunction",
+      "description": "a real-time car bidding platform with enhanced UX, 10x faster bid processing via Redis and WebSockets, and a scalable backend built with Laravel and Express.js",
+      "stacks": "React.js · Node.js · WebSocket · Redis · Laravel · MongoDB · Express.js · GitHub",
+      "stacksIcons": [
+        "React.js",
+        "Node.js",
+        "WebSocket",
+        "Redis",
+        "Laravel",
+        "MongoDB",
+        "Express.js",
+        "GitHub"
+      ],
+      "image1": "",
+      "screenshots": []
+    },
+    {
+      "title": "MyDx - I2C Telkom",
+      "description": "a scalable enterprise web app for custom flow management and automation, built with CodeIgniter, REST APIs, and Docker, used by major clients like Telkom Access, DBS, and Mitratel.",
+      "stacks": "Code igniter · AJAX · JSON · Model-View-Controller (MVC) · Application Programming Interfaces (API) · Web Services API · REST APIs · jQuery · Bootstrap (Framework) · PhpMyAdmin · MySQL · React.js · Node.js · Redis · Docker · WebSocket · MongoDB · GitHub",
+      "stacksIcons": [
+        "Code igniter",
+        "AJAX",
+        "JSON",
+        "Model-View-Controller (MVC)",
+        "Application Programming Interfaces (API)",
+        "Web Services API",
+        "REST APIs",
+        "jQuery",
+        "Bootstrap (Framework)",
+        "PhpMyAdmin",
+        "MySQL",
+        "React.js",
+        "Node.js",
+        "Redis",
+        "Docker",
+        "WebSocket",
+        "MongoDB",
+        "GitHub"
+      ],
+      "image1": "",
+      "screenshots": []
+    },
+    {
+      "title": "Wedding Invitation",
+      "description": "a full-featured MERN stack web app with RSVP, countdown timer, and photo gallery to create personalized digital wedding experiences",
+      "stacks": "React.js · MongoDB · Tailwind CSS · Express.js · Node.js · PostgreSQL · TypeScript · GitHub",
+      "stacksIcons": [
+        "React.js",
+        "MongoDB",
+        "Tailwind CSS",
+        "Express.js",
+        "Node.js",
+        "PostgreSQL",
+        "TypeScript",
+        "GitHub"
+      ],
+      "image1": "",
+      "screenshots": []
+    }
+  ],
+  "dataRight": [
+    {
+      "title": "CBT Apps",
+      "description": "a custom exam platform built for MIM 04 Blimbing School, featuring seamless test workflows and real-time result processing, developed with the MERN stack and Laravel for backend flexibility.",
+      "stacks": "React.js · MongoDB · Tailwind CSS · Express.js · Node.js · Laravel · PostgreSQL · TypeScript · GitHub",
+      "stacksIcons": [
+        "React.js",
+        "MongoDB",
+        "Tailwind CSS",
+        "Express.js",
+        "Node.js",
+        "Laravel",
+        "PostgreSQL",
+        "TypeScript",
+        "GitHub"
+      ],
+      "image1": "",
+      "screenshots": []
+    },
+    {
+      "title": "Inventory Apps",
+      "description": "is a set of internal logistics and warehousing web applications built with CodeIgniter and MySQL, designed to digitize workflows and enhance operational transparency across departments.",
+      "stacks": "Code Igniter· MySQL · AJAX · jQuery · Bootstrap (Framework) ",
+      "stacksIcons": [
+        "Code Igniter",
+        "MySQL",
+        "AJAX",
+        "jQuery",
+        "Bootstrap (Framework)"
+      ],
+      "image1": "",
+      "screenshots": []
+    },
+    {
+      "title": "SiUjian",
+      "description": "an academic administration system featuring Postgraduate Exam Stage and Achievement Credit modules, built with Laravel and MySQL, and integrated smoothly across departments in collaboration with faculty teams.",
+      "stacks": "Laravel · MySQL · Bootstrap (Framework) · AJAX · jQuery · REST APIs · React.js · Node.js",
+      "stacksIcons": [
+        "Laravel",
+        "MySQL",
+        "Bootstrap (Framework)",
+        "AJAX",
+        "jQuery",
+        "REST APIs",
+        "React.js",
+        "Node.js"
+      ],
+      "image1": "",
+      "screenshots": []
+    },
+    {
+      "title": "Employee Apps",
+      "description": "is a suite of internal business tools—including HR, attendance (API-based), payroll, and unit reporting systems—built with Laravel and React to streamline workflows and boost operational efficiency.",
+      "stacks": "Laravel · MySQL · AJAX · jQuery · React.js · Node.js · Bootstrap (Framework) · Progressive Web Applications (PWAs) · REST APIs · WebSocket",
+      "stacksIcons": [
+        "Laravel",
+        "MySQL",
+        "AJAX",
+        "jQuery",
+        "React.js",
+        "Node.js",
+        "Bootstrap (Framework)",
+        "Progressive Web Applications (PWAs)",
+        "REST APIs",
+        "WebSocket"
+      ],
+      "image1": "",
+      "screenshots": []
+    }
+  ]
+}

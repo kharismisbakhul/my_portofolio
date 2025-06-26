@@ -1,30 +1,33 @@
 const About: React.FC = () => {
-    return (
-      <>
-        {/* About Section */}
-        <section id="about" className="p-10 text-center bg-gray-800">
-          <h2 className="text-3xl font-semibold">About Me</h2>
-          <div className="mt-4 text-lg max-w-3xl mx-auto text-gray-300 leading-relaxed">
-            <p>
-              Hi, I’m Kharis, a Frontend Developer with <strong>6 years of experience</strong> specializing in building and optimizing web applications.
-            </p>
-            <p className="mt-4">
-              My journey began during college, where I took on <strong>internships</strong> and <strong>freelance projects</strong>. After graduating, I joined <strong>KUD Minatani Cooperative</strong> as a Web Developer, developing applications to streamline business operations.
-            </p>
-            <p className="mt-4">
-              Later, I moved to <strong>PT. Infomedia Nusantara</strong>, enhancing my expertise in web development while staying up-to-date with the latest technologies.
-            </p>
-            <p className="mt-4">
-              I’m passionate about <strong>problem-solving, clean code, and continuous learning</strong>. I actively explore new frameworks, tools, and best practices to build high-quality, scalable solutions.
-            </p>
-            <p className="mt-4">
-              Outside of coding, I enjoy <strong>basketball, reading, and watching movies</strong> to balance my professional and personal life.
-            </p>
-          </div>
-        </section>
-      </>
-    );
-  };
-  
-  export default About;
-  
+  return (
+    <>
+      {/* About Section */}
+      <section id="about" className="p-10 text-center bg-gray-800">
+        <h2 className="text-3xl font-semibold">About Me</h2>
+        <div className="mt-4 text-lg max-w-3xl mx-auto text-gray-300 leading-relaxed">
+          👋 Hi, I’m Misbakhul Kharis — a <strong>Full Stack Developer with 6+ years of
+          experience</strong> building clean, scalable, and high-performance web
+          applications. I specialize in <strong>MERN Stack, Laravel, PostgreSQL, and
+          TailwindCSS, </strong>and I’m passionate about clean code, performance, and
+          solving real-world problems through tech. <br /><br />
+          
+          🚀 My journey started during university through internships and freelance projects. Since then,
+          I’ve worked with organizations like <strong>KUD Minatani</strong>, where I
+          digitized business operations, and <strong>PT. Infomedia Nusantara</strong>, where I
+          honed my skills in modern web development and collaborative workflows. 
+          While working at PT. Infomedia Nusantara, I continued honing my skills not only through professional collaboration but also by freelancing. 
+          After my time at Infomedia, I expanded my freelance work for <strong>Belanja Mobil Auction</strong> and <strong>Dibilabs.id</strong>, delivering impactful, production-ready solutions.<br /><br />
+
+          🔍 I'm actively <strong>open to remote opportunities (freelance or full-time) </strong>
+          where I can contribute to impactful products while continuing to grow
+          as a developer. <br /><br />
+
+          👇 Feel free to check out my work, explore my resume, or reach out—I’d love to hear from you!
+
+        </div>
+      </section>
+    </>
+  );
+};
+
+export default About;

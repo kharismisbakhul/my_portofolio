@@ -5,7 +5,7 @@ import Hero from "../pages/Hero";
 import About from "../pages/About";
 import Projects from "../pages/Projects";
 import Experience from "../pages/Experience";
-import Cv from "../pages/Cv";
+import Resume from "../pages/Resume";
 import Contact from "../pages/Contact";
 
 const Portfolio: React.FC = () => {
@@ -16,7 +16,7 @@ const Portfolio: React.FC = () => {
       <About />
       <Projects/>
       <Experience/>
-      <Cv/>
+      <Resume/>
       <Contact/>
     </div>
   );
