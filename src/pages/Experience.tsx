@@ -97,7 +97,7 @@ const Experience: React.FC = () => {
 
             <div className="flex flex-col items-center text-center my-auto">
               <img
-                src="/brawijaya_university.png"
+                src="/brawijaya_university.webp"
                 alt="Brawijaya University Logo"
                 className="w-32 h-32 md:w-40 md:h-40 object-contain mb-4"
               />

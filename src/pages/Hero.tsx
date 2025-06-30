@@ -26,7 +26,7 @@ const Hero: React.FC = () => {
                 </a>
               </div>
             </div>
-            <img src="/kharis_square.png" alt="Full Stack Developer Misbakhul Kharis Portrait" className="w-96 h-100 rounded-full shadow-lg border-4 border-white" />
+            <img src="/kharis_square.webp" alt="Full Stack Developer Misbakhul Kharis Portrait" className="w-96 h-100 rounded-full shadow-lg border-4 border-white" />
         </section>
       </>
     );

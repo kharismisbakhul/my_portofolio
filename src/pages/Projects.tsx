@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { FaImages } from "react-icons/fa";
 
-import projectsData from "../data/projects.json";
+import projectsData from "../data/allProjects.json";
 import getStackIcon from "../utils/getStackIcon";
 
 type Project = {
@@ -13,8 +13,7 @@ type Project = {
   screenshots: string[];
 };
 
-const dataLeft: Project[] = projectsData.dataLeft;
-const dataRight: Project[] = projectsData.dataRight;
+const data: Project[] = projectsData.data;
 
 const Projects: React.FC = () => {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
@@ -38,52 +37,10 @@ const Projects: React.FC = () => {
           <h2 className="text-3xl font-semibold">Projects</h2>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+        <div className="grid grid-cols-1 md:grid-cols-1 gap-5 mx-32">
           {/* Left Column */}
           <div className="space-y-6">
-            {dataLeft.map((project, id) => (
-              <div key={id} className="flex flex-col md:flex-row bg-gray-800 p-6 rounded-lg shadow-md items-center">
-                <img
-                  src={project.image1}
-                  alt={project.title}
-                  className="w-40 h-40 rounded-lg shadow-md"
-                />
-                <div className="md:ml-6 mt-4 md:mt-0 text-left space-y-3">
-                  <h3 className="text-xl font-bold">{project.title}</h3>
-                  <p>{project.description}</p>
-                  {/* <p className="text-sm text-gray-400 flex items-center space-x-2">
-                    <strong>Stacks: {project.stacks}</strong>
-                  </p> */}
-                  <div className="flex flex-wrap gap-3 text-sm text-gray-300 mt-2">
-                    {project.stacksIcons.map((stackIcon, index) => {
-                      const Icon = getStackIcon(stackIcon);
-                      return (
-                        <div
-                          key={index}
-                          className="flex items-center gap-1 bg-gray-700 px-2 py-1 rounded"
-                          title={stackIcon} // optional tooltip
-                        >
-                          {Icon && <Icon className="w-4 h-4" />}
-                          <span>{stackIcon}</span>
-                        </div>
-                      );
-                    })}
-                  </div>
-                  <button
-                    onClick={() => openModal(project)}
-                    className="flex items-center gap-2 px-4 py-2 text-sm rounded bg-blue-900 hover:bg-blue-700 text-white"
-                  >
-                    <FaImages className="w-4 h-4" />
-                    View Screenshot
-                  </button>
-                </div>
-              </div>
-            ))}
-          </div>
-
-          {/* Right Column */}
-          <div className="space-y-6">
-            {dataRight.map((project, id)=> (
+            {data.map((project, id) => (
               <div key={id} className="flex flex-col md:flex-row bg-gray-800 p-6 rounded-lg shadow-md items-center">
                 <img
                   src={project.image1}
