@@ -15,7 +15,20 @@
         "GitHub"
       ],
       "image1": "/dibilabs/thumbnail2.webp",
-      "screenshots": []
+      "screenshots": [
+        "/dibilabs/image1.webp", 
+        "/dibilabs/image2.webp",
+        "/dibilabs/image3.webp",
+        "/dibilabs/image4.webp",
+        "/dibilabs/image5.webp",
+        "/dibilabs/image6.webp",
+        "/dibilabs/image7.webp",
+        "/dibilabs/image8.webp",
+        "/dibilabs/image9.webp",
+        "/dibilabs/image10.webp",
+        "/dibilabs/image11.webp",
+        "/dibilabs/image12.webp"
+      ]
     },
     {
       "title": "Belanja Mobil Aunction",
@@ -32,7 +45,15 @@
         "GitHub"
       ],
       "image1": "/bma/thumbnail2.webp",
-      "screenshots": []
+      "screenshots": [
+        "/bma/image1.webp", 
+        "/bma/image2.webp",
+        "/bma/image3.webp",
+        "/bma/image4.webp",
+        "/bma/image5.webp",
+        "/bma/image6.webp",
+        "/bma/image7.webp"
+      ]
     },
     {
       "title": "MyDx - I2C Telkom",
@@ -59,7 +80,35 @@
         "GitHub"
       ],
       "image1": "/mydx/thumbnail2.webp",
-      "screenshots": []
+      "screenshots": [
+        "/mydx/image1.webp", 
+        "/mydx/image2.webp",
+        "/mydx/image3.webp",
+        "/mydx/image4.webp",
+        "/mydx/image5.webp",
+        "/mydx/image6.webp",
+        "/mydx/image7.webp",
+        "/mydx/image8.webp",
+        "/mydx/image9.webp",
+        "/mydx/image10.webp",
+        "/mydx/image11.webp",
+        "/mydx/image12.webp",
+        "/mydx/image13.webp", 
+        "/mydx/image14.webp",
+        "/mydx/image15.webp",
+        "/mydx/image16.webp",
+        "/mydx/image17.webp",
+        "/mydx/image18.webp",
+        "/mydx/image19.webp",
+        "/mydx/image20.webp",
+        "/mydx/image21.webp",
+        "/mydx/image22.webp",
+        "/mydx/image23.webp",
+        "/mydx/image24.webp",
+        "/mydx/image25.webp",
+        "/mydx/image26.webp",
+        "/mydx/image27.webp"
+      ]
     },
     {
       "title": "Wedding Invitation",
@@ -76,7 +125,40 @@
         "GitHub"
       ],
       "image1": "/wedding_invitation/thumbnail2.webp",
-      "screenshots": []
+      "screenshots": [
+        "/wedding_invitation/image1.webp", 
+        "/wedding_invitation/image2.webp",
+        "/wedding_invitation/image3.webp",
+        "/wedding_invitation/image4.webp",
+        "/wedding_invitation/image5.webp",
+        "/wedding_invitation/image6.webp",
+        "/wedding_invitation/image7.webp",
+        "/wedding_invitation/image8.webp",
+        "/wedding_invitation/image9.webp",
+        "/wedding_invitation/image10.webp",
+        "/wedding_invitation/image11.webp",
+        "/wedding_invitation/image12.webp",
+        "/wedding_invitation/image13.webp", 
+        "/wedding_invitation/image14.webp",
+        "/wedding_invitation/image15.webp",
+        "/wedding_invitation/image16.webp",
+        "/wedding_invitation/image17.webp",
+        "/wedding_invitation/image18.webp",
+        "/wedding_invitation/image19.webp",
+        "/wedding_invitation/image20.webp",
+        "/wedding_invitation/image21.webp",
+        "/wedding_invitation/image22.webp",
+        "/wedding_invitation/image23.webp",
+        "/wedding_invitation/image24.webp",
+        "/wedding_invitation/image25.webp",
+        "/wedding_invitation/image26.webp",
+        "/wedding_invitation/image27.webp",
+        "/wedding_invitation/image28.webp",
+        "/wedding_invitation/image29.webp",
+        "/wedding_invitation/image30.webp",
+        "/wedding_invitation/image31.webp",
+        "/wedding_invitation/image32.webp"
+      ]
     },
     {
       "title": "CBT Apps",
@@ -94,7 +176,30 @@
         "GitHub"
       ],
       "image1": "/cbt_apps/thumbnail2.webp",
-      "screenshots": []
+      "screenshots": [
+        "/cbt_apps/image1.webp", 
+        "/cbt_apps/image2.webp",
+        "/cbt_apps/image3.webp",
+        "/cbt_apps/image4.webp",
+        "/cbt_apps/image5.webp",
+        "/cbt_apps/image6.webp",
+        "/cbt_apps/image7.webp",
+        "/cbt_apps/image8.webp",
+        "/cbt_apps/image9.webp",
+        "/cbt_apps/image10.webp",
+        "/cbt_apps/image11.webp",
+        "/cbt_apps/image12.webp",
+        "/cbt_apps/image13.webp", 
+        "/cbt_apps/image14.webp",
+        "/cbt_apps/image15.webp",
+        "/cbt_apps/image16.webp",
+        "/cbt_apps/image17.webp",
+        "/cbt_apps/image18.webp",
+        "/cbt_apps/image19.webp",
+        "/cbt_apps/image20.webp",
+        "/cbt_apps/image21.webp",
+        "/cbt_apps/image22.webp"
+      ]
     },
     {
       "title": "Inventory Apps",
@@ -108,7 +213,15 @@
         "Bootstrap (Framework)"
       ],
       "image1": "/inventory_apps/thumbnail2.webp",
-      "screenshots": []
+      "screenshots": [
+        "/inventory_apps/image1.webp", 
+        "/inventory_apps/image2.webp",
+        "/inventory_apps/image3.webp",
+        "/inventory_apps/image4.webp",
+        "/inventory_apps/image5.webp",
+        "/inventory_apps/image6.webp",
+        "/inventory_apps/image7.webp"
+      ]
     },
     {
       "title": "SiUjian",
@@ -125,7 +238,24 @@
         "Node.js"
       ],
       "image1": "/siujian/thumbnail2.webp",
-      "screenshots": []
+      "screenshots": [
+        "/siujian/image1.webp", 
+        "/siujian/image2.webp",
+        "/siujian/image3.webp",
+        "/siujian/image4.webp",
+        "/siujian/image5.webp",
+        "/siujian/image6.webp",
+        "/siujian/image7.webp",
+        "/siujian/image8.webp",
+        "/siujian/image9.webp",
+        "/siujian/image10.webp",
+        "/siujian/image11.webp",
+        "/siujian/image12.webp",
+        "/siujian/image13.webp", 
+        "/siujian/image14.webp",
+        "/siujian/image15.webp",
+        "/siujian/image16.webp"
+      ]
     },
     {
       "title": "Employee Apps",
@@ -144,7 +274,30 @@
         "WebSocket"
       ],
       "image1": "/employee_apps/thumbnail2.webp",
-      "screenshots": []
+      "screenshots": [
+        "/employee_apps/image1.webp", 
+        "/employee_apps/image2.webp",
+        "/employee_apps/image3.webp",
+        "/employee_apps/image4.webp",
+        "/employee_apps/image5.webp",
+        "/employee_apps/image6.webp",
+        "/employee_apps/image7.webp",
+        "/employee_apps/image8.webp",
+        "/employee_apps/image9.webp",
+        "/employee_apps/image10.webp",
+        "/employee_apps/image11.webp",
+        "/employee_apps/image12.webp",
+        "/employee_apps/image13.webp", 
+        "/employee_apps/image14.webp",
+        "/employee_apps/image15.webp",
+        "/employee_apps/image16.webp",
+        "/employee_apps/image17.webp",
+        "/employee_apps/image18.webp",
+        "/employee_apps/image19.webp",
+        "/employee_apps/image20.webp",
+        "/employee_apps/image21.webp",
+        "/employee_apps/image22.webp"
+      ]
     }
   ]
 }
