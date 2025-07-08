@@ -9,8 +9,8 @@ const Resume: React.FC = () => {
             <h2 className="text-3xl font-semibold text-center">See my resume</h2>
             <p className="text-gray-400 mt-2">Get a quick overview of my professional journey and download the full version.</p>
             <a 
-                href="/Resume_Misbakhul_Kharis_EN.pdf" // Update this with the actual path to your Resume file
-                download="Resume_Misbakhul_Kharis_EN.pdf"
+                href="/Resume_Misbakhul_Kharis.pdf" // Update this with the actual path to your Resume file
+                download="Resume_Misbakhul_Kharis.pdf"
                 className="mt-4 inline-flex items-center bg-blue-900 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-blue-700 transition duration-300"
             >
                 <FaDownload className="mr-2" /> Download My Resume (PDF)
