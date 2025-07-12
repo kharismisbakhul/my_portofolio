@@ -7,8 +7,7 @@ const About: React.FC = () => {
         <div className="mt-4 text-lg max-w-3xl mx-auto text-gray-300 leading-relaxed">
           👋 Hi, I’m Misbakhul Kharis — a <strong>Full Stack Developer with 6+ years of
           experience</strong> building clean, scalable, and high-performance web
-          applications. I specialize in <strong>MERN Stack, Laravel, PostgreSQL, and
-          TailwindCSS, </strong>and I’m passionate about clean code, performance, and
+          applications. I specialize in <strong>React JS, Next JS, TypeScript, Node JS, Laravel, PostgreSQL, MongoDB, TailwindCSS </strong>and I’m passionate about clean code, performance, and
           solving real-world problems through tech. <br /><br />
           
           🚀 My journey started during university through internships and freelance projects. Since then,

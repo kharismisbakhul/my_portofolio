@@ -9,7 +9,7 @@ const Hero: React.FC = () => {
               <strong>Full Stack Developer</strong> — <strong>6+ Years Experience</strong>
             </p>
             <p className="mt-2 text-base text-slate-400">
-              Specializing in <strong>MERN Stack, Laravel, PostgreSQL</strong>, and <strong>TailwindCSS</strong>
+              Specializing in <strong>React JS, Next JS, TypeScript, Node JS, Laravel, PostgreSQL, MongoDB,</strong> and <strong>TailwindCSS</strong>
             </p>
             <p className="mt-2 text-base text-slate-400">
               Build <strong>Performance-Driven Code, Scalable Web Apps & Modern UI</strong>
