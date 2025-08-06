@@ -3,8 +3,8 @@ const About: React.FC = () => {
     <>
       {/* About Section */}
       <section id="about" className="p-10 text-center bg-gray-800">
-        <h2 className="text-3xl font-semibold">About Me</h2>
-        <div className="mt-4 text-lg max-w-3xl mx-auto text-gray-300 leading-relaxed">
+        <h2 className="text-xl sm:text-3xl font-semibold">About Me</h2>
+        <div className="mt-4 text-sm sm:text-lg max-w-3xl mx-auto text-gray-300 leading-relaxed">
           👋 Hi, I’m Misbakhul Kharis — a <strong>Full Stack Developer with 6+ years of
           experience</strong> building clean, scalable, and high-performance web
           applications. I specialize in <strong>React JS, Next JS, TypeScript, Node JS, Laravel, PostgreSQL, MongoDB, TailwindCSS </strong>and I’m passionate about clean code, performance, and

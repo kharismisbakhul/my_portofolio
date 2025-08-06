@@ -34,10 +34,10 @@ const Projects: React.FC = () => {
       {/* Projects Section */}
       <section id="projects" className="p-10 bg-gray-900">
         <div className="text-center mb-8">
-          <h2 className="text-3xl font-semibold">Projects</h2>
+          <h2 className="text-xl sm:text-3xl font-semibold">Projects</h2>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-1 gap-5 mx-32">
+        <div className="grid grid-cols-1 md:grid-cols-1 gap-5 mx-4 sm:mx-8 md:mx-32">
           {/* Left Column */}
           <div className="space-y-6">
             {data.map((project, id) => (
@@ -47,13 +47,13 @@ const Projects: React.FC = () => {
                   alt={project.title}
                   className="w-40 h-40 rounded-lg shadow-md"
                 />
-                <div className="md:ml-6 mt-4 md:mt-0 text-left space-y-3">
+                <div className="md:ml-6 mt-4 md:mt-0 text-center sm:text-left space-y-3">
                   <h3 className="text-xl font-bold">{project.title}</h3>
-                  <p>{project.description}</p>
+                  <p className="text-sm sm:text-md">{project.description}</p>
                   {/* <p className="text-sm text-gray-400 flex items-center space-x-2">
                     <strong>Stacks: {project.stacks}</strong>
                   </p> */}
-                  <div className="flex flex-wrap gap-3 text-sm text-gray-300 mt-2">
+                  <div className="flex flex-wrap gap-3 text-sm text-gray-300 mt-2 text-center">
                     {project.stacksIcons.map((stackIcon, index) => {
                       const Icon = getStackIcon(stackIcon);
                       return (

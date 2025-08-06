@@ -5,92 +5,92 @@ const Experience: React.FC = () => {
     <>
       {/* Experience & Education Section */}
       <section id="experience" className="p-10 bg-gray-800">
-        <h2 className="text-3xl font-semibold text-center">
+        <h2 className="text-xl sm:text-3xl font-semibold text-center">
           Experience & Education
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-6">
           {/* Experience Column */}
           <div className="bg-gray-700 p-6 rounded-lg shadow-md">
-            <h3 className="text-2xl font-semibold mb-4 text-center">
+            <h3 className="text-xl sm:text-2xl font-semibold mb-4 text-center">
               Experience
             </h3>
             <br />
 
             {/* Dibilabs.id */}
             <div className="mb-8 text-center">
-              <h3 className="text-xl font-semibold">
+              <h3 className="text-lg sm:text-xl font-semibold">
                 Dibilabs.id – Jakarta, Indonesia (Remote)
               </h3>
-              <p className="text-gray-400">
+              <p className="text-md sm:text-lg text-gray-400">
                 Full Stack Developer (March 2025 – June 2025)
               </p>
             </div>
             
             {/* Belanja Mobil Aunction */}
             <div className="mb-8 text-center">
-              <h3 className="text-xl font-semibold">
+              <h3 className="text-lg sm:text-xl font-semibold">
                 Belanja Mobil Aunction – Jakarta, Indonesia (Remote)
               </h3>
-              <p className="text-gray-400">
+              <p className="text-md sm:text-lg text-gray-400">
                 Full Stack Developer (September 2024 – December 2024)
               </p>
             </div>
 
             {/* PT. INFOMEDIA NUSANTARA */}
             <div className="mb-8 text-center">
-              <h3 className="text-xl font-semibold">
+              <h3 className="text-lg sm:text-xl font-semibold">
                 PT. INFOMEDIA NUSANTARA – Jakarta, Indonesia (Remote)
               </h3>
-              <p className="text-gray-400">
+              <p className="text-md sm:text-lg text-gray-400">
                 Full Stack Developer (June 2022 – August 2024)
               </p>
             </div>
 
             {/* Kharis Dev */}
             <div className="mb-8 text-center">
-              <h3 className="text-xl font-semibold">
+              <h3 className="text-lg sm:text-xl font-semibold">
                 Kharis Dev – Lamongan, Indonesia (Remote)
               </h3>
-              <p className="text-gray-400">
+              <p className="text-md sm:text-lg text-gray-400">
                 Full Stack Developer (November 2022 – April 2023)
               </p>
             </div>
 
             {/* KUD MINATANI */}
             <div className="mb-8 text-center">
-              <h3 className="text-xl font-semibold">
+              <h3 className="text-lg sm:text-xl font-semibold">
                 KUD MINATANI – Lamongan, Indonesia (On-site)
               </h3>
-              <p className="text-gray-400">
+              <p className="text-md sm:text-lg text-gray-400">
                 Full Stack Developer (September 2020 – May 2022)
               </p>
             </div>
 
             {/* PSIK, FACULTY OF ECONOMICS AND BUSINESS, BRAWIJAYA UNIVERSITY */}
             <div className="mb-8 text-center">
-              <h3 className="text-xl font-semibold">
+              <h3 className="text-lg sm:text-xl font-semibold">
                 PSIK, Faculty of Economics and Business, Brawijaya University –
                 Malang, Indonesia (Hybrid)
               </h3>
-              <p className="text-gray-400">
+              <p className="text-md sm:text-lg text-gray-400">
                 Full Stack Developer (June 2019 – April 2021)
               </p>
             </div>
 
             {/* FACULTY OF COMPUTER SCIENCE, BRAWIJAYA UNIVERSITY */}
             <div className="mb-8 text-center">
-              <h3 className="text-xl font-semibold">
+              <h3 className="text-lg sm:text-xl font-semibold">
                 Faculty of Computer Science (FILKOM), Brawijaya University – Malang,
                 Indonesia (On-site)
               </h3>
-              <p className="text-gray-400">
+              <p className="text-md sm:text-lg text-gray-400">
                 Practical Teaching Assistant (February 2018 – May 2019)
               </p>
             </div>
           </div>
           {/* Education Column */}
           <div className="bg-gray-700 p-6 rounded-lg shadow-md flex flex-col items-center">
-            <h3 className="text-2xl font-semibold mb-4 text-center">
+            <h3 className="text-xl sm:text-2xl font-semibold mb-4 text-center">
               Education
             </h3>
             <br />
@@ -102,7 +102,7 @@ const Experience: React.FC = () => {
                 className="w-32 h-32 md:w-40 md:h-40 object-contain mb-4"
               />
               <div>
-                <h3 className="text-xl font-bold">Brawijaya University</h3>
+                <h3 className="text-lg sm:text-xl font-bold">Brawijaya University</h3>
                 <br />
                 <p>
                   📍 Bachelor’s Degree <strong>Informatics Engineering</strong> (2016 – 2020)
