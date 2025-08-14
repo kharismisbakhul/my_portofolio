@@ -52,7 +52,7 @@ const Experience: React.FC = () => {
                 Kharis Dev – Lamongan, Indonesia (Remote)
               </h3>
               <p className="text-md sm:text-lg text-gray-400">
-                Full Stack Developer (November 2022 – April 2023)
+                Full Stack Developer (November 2022 – November 2023)
               </p>
             </div>
 
